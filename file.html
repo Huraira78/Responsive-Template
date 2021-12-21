@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>temp</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/5bedf8b8ea.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <header>
+       <button id="startbtn">Click Me</button>
+        <div class="p1"><p>How we are reporting to covid-19.</p></div>
+    </header>
+    <nav>
+        <div class="logophase">
+            <div class="logo">
+                <img src="logo.png" alt="logo image">
+            </div>
+           <div class="p2">
+                <h2>L O G O</h2>
+            </div>
+        </div>
+        <div class="menu">
+            <!-- <span id="hambrgr" onclick="toggle()"><i class="fas fa-bars"  ></i></span> -->
+            <ul id="ul">
+                <li ><a href="">Home</a></li>
+                <li ><a href="">About</a></li>
+                <li ><a href="">Help</a></li>
+                <li ><a href=""><i class="fas fa-shopping-cart"></i></a></li>
+            </ul>
+        </div>
+    </nav>
+        <div class="main">
+                <div class="img">
+                    <div class="serving">
+                        <h1>Serving You Since 1989</h1>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Iste, pariatur.</p>
+                        <button id="btn">Show Mask</button>
+                   </div>
+              </div>
+      </div>
+      <div class="support">
+          <div class="minsupport">
+            <div class="spt1">
+                <p>Ways To Support.</p>
+                <h1>Support Acme Outdoors.</h1>
+            </div>
+            <div class="spt2">
+                Lorem ipsum, dolor sit amet consectetur adipisicing elit. Asperiores veritatis id aperiam at omnis similique, enim dolorum eius tempore ipsum.
+            </div>
+          </div>
+          <div class="cards">
+              <div class="sptpara1">
+                 <div class="card">
+                    <h1 class="number">01</h1>
+                    <span><hr></span>
+                    <h1 class="supportway">SHOP PRODUCT</h1>
+                  </div>
+                  <div class="sptpara">
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Odit autem repellat distinctio exercitationem voluptatibus officia excepturi natus! Dolore, atque obcaecati?</p>
+                  </div>
+              </div>
+              <div class="sptpara1">
+                 <div class="card">
+                    <h1 class="number">02</h1>
+                    <span><hr></span>
+                    <h1 class="supportway">DONATE</h1>
+                  </div>
+                  <div class="sptpara">
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Odit autem repellat distinctio exercitationem voluptatibus officia excepturi natus! Dolore, atque obcaecati?</p>
+                  </div>
+              </div>
+              <div class="sptpara1">
+                 <div class="card">
+                    <h1 class="number">03</h1>
+                    <span><hr></span>
+                    <h1 class="supportway">BUY GIFT CARDS</h1>
+                  </div>
+                  <div class="sptpara">
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Odit autem repellat distinctio exercitationem voluptatibus officia excepturi natus! Dolore, atque obcaecati?</p>
+                  </div>
+              </div>
+          </div>
+      </div>
+      <div class="lastimg">
+        <div class="lastimgtext">
+            <h1>How We Are Keeping You Saf During The Covid-19</h1>
+            <p class="lastp1">Lorem ipsum dolor sit amet consectetur adipisicing elit. Iste, Lorem ipsum dolor sit amet consectetur adipisicing elit. Quod, officia.</p>
+            <h3>To view detail click on the <span id="check">"Check Detail Button"</span></h3>
+            <button id="btn1" onclick="detail()">Check Details</button>
+            <p id="detail">
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquam accusamus repellat veniam ullam, quam quaerat neque repellendus delectus doloribus adipisci consectetur nisi nulla aliquid reprehenderit cumque, aspernatur culpa rem eveniet.
+            </p>
+       </div>
+      </div>
+      <div class="time">
+          <h1>Shop Time</h1>
+          <span id="day" > Open 24</span><span >/</span><span id="month">7</span><span>/</span><span id="year">365</span>
+      </div>
+      <script>
+          function detail() {
+              let detail=document.getElementById('detail');
+              let button=document.getElementById('btn1');
+              if(detail.style.display!='none')
+              {
+                detail.style.display='none'
+              }
+              else
+              {
+                detail.style.display='block'
+              }
+          }
+        //   function toggle()
+        //   {
+        //       let bar=document.getElementsByClassName('li');
+        //       let hambrgr=document.getElementById('hambrgr');
+        //       if(bar.style.display='block')
+        //       {
+        //           bar.style.display='none';
+        //       }
+        //       else
+        //       {
+        //           bar.styel.display='none';
+        //       }
+        //   }
+        //   function time() {
+        //       let day=document.getElementById('day');
+        //       let date=new Date();
+        //       let day1=date.getDay();
+        //       day.innerHTML=day1
+        //       let month=document.getElementById('month');
+        //       let month1=date.getMonth();
+        //       month.innerHTML=month1
+        //       let year=document.getElementById('year');
+        //       let year1=date.getFullYear();
+        //       year.innerHTML=year1
+        //   }
+        //   setInterval(time(),1000);
+      </script>
+</body>
+</html>
